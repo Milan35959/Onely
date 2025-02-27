@@ -1,0 +1,65 @@
+.containarea{
+    margin-bottom: 2.5rem;
+}
+
+.containarea .containbox{
+    padding: 0px 10rem;
+}
+
+.containarea .containbox .textBox{
+    margin-bottom: 2rem;
+}
+
+.containarea .containbox .textBox h4{
+    color: rgb(111 151 208);
+    
+}
+
+.containarea .containbox .textBox .paragraph{
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 40%;
+}
+
+#table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.card{
+    border:0px;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    width: 23%;
+    background-color: white;
+    box-shadow:0px 20px 50px 0px rgba(18, 17, 39, .08);
+
+}
+
+.card .cardImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+
+}
+
+.card .cardImg img{
+    height: 50px;
+}
+
+.card .cardText{
+    text-align: center;
+    
+}
+
+.card .cardText h5{
+    margin-bottom: 1rem;
+
+}
+
+.card .cardText p{
+    color: rgb(18 17 39)
+}

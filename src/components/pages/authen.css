@@ -1,0 +1,253 @@
+.logContainer{
+    min-height: 100vh;
+}
+
+.login{
+    display: flex;
+    gap: 0.75rem;
+
+}
+
+.authenimg{
+    padding: 2rem;
+    width: 50%;
+}
+
+.authenimgbox{
+    background-color: rgb(248 247 250 );
+    border: 0px;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+
+}
+
+.authenimgbox img{
+    object-fit: cover;
+    width: 60%;
+    margin: auto;
+
+}
+
+.authenBox{
+    display: flex;
+    align-items: center;
+    padding: 2rem 3rem;
+    margin: auto 0px;
+    width: 50%;
+
+}
+
+.authenItems{
+    width: 75%;
+}
+
+
+
+.logoimg{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.authenText{
+    margin: 1.5rem 0rem;
+}
+
+.authenP{
+    color: rgb(107 114 128);
+    font-size: 0.75rem;
+    
+}
+
+.authenH{
+    color: rgb(63 71 86);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.email{
+    margin-bottom: 0.75rem;
+}
+
+.email label{
+    color: rgb(63 71 86);
+    display: block;
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+
+}
+.email label code{
+    margin-left: 0.25rem; 
+    color: rgb(239 68 68 );
+}
+
+.email #email{
+    color: rgb(17 24 39);
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    display: block;
+    width: 100%;
+    background-color: rgb(249 250 251);
+    border: 1px solid rgb(209 213 219) ;
+    border-radius: 0.5rem;
+
+}
+
+.password{
+    margin-bottom: 0.75rem;
+
+}
+
+.passT{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.passT label{
+    color: rgb(63 71 86);
+    display: block;
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+
+}
+.passT label code{
+    margin-left: 0.25rem; 
+    color: rgb(239 68 68 );
+}
+
+.passT  a{
+    font-size:0.875rem;
+    color: rgb(111 151 208);
+    height: auto;
+    width: auto;
+
+}
+
+.passB{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.passB input{
+
+    color: rgb(17 24 39);
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    display: block;
+    width: 100%;
+    background-color: rgb(249 250 251);
+    border: 1px solid rgb(209 213 219) ;
+    border-radius: 0.5rem;
+    flex: 1;
+
+}
+.passB span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    filter: invert();
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.remember input{
+    color: rgb(37 99 235);
+    background-color:rgb(249 250 251) ;
+    border: 1px solid rgb(209 213 219 );
+    height: 1rem;
+    width: 1rem;
+    border-radius: 0.25rem;
+
+}
+
+.remember label{
+    color: rgb(63 71 86 );
+    font-size: 0.875rem;
+    margin-left: 0.5rem;
+    font-weight: 400;
+}
+
+
+button{
+    color: rgb(255 255 255);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.75rem 2rem;
+    background-color: rgb(111 151 208);
+    border-radius: 0.5rem;
+    width: 100%;
+    border: 0px;
+    
+}
+
+.plat{
+    color: rgb(63 71 86 );
+    text-align: center;
+    margin: 1.5rem 0px;
+
+}
+
+.plat a{
+    color: rgb(111 151 208 );
+
+}
+
+.divisor{
+    position: relative;
+    text-align: center;
+}
+
+.divisor::before,
+.divisor::after {
+  content: '';
+  display: block;
+  height: 0.5px; /* Thin line */
+  width: 40%; /* 2/5 width */
+  position: absolute;
+  top: 50%; /* Align vertically at the center */
+  background-color: rgb(225 221 222); /* Custom background color */
+  
+}
+
+.divisor::before {
+  left: 0; /* Align to the left */
+}
+
+.divisor::after {
+  right: 0; /* Align to the right */
+}
+
+.divisor p{
+    color: rgb(225 221 222);
+    margin: auto;
+    width: 50%;
+
+}
+
+.google{
+
+}
+
+.googleBox{
+    color: rgb(249 225 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem auto;
+    margin-top: 1.5rem;
+    border-radius: 0.375rem;
+    width: 38px;
+    height: 38px;
+    background-color: rgb(247, 208, 208);
+}
+
+

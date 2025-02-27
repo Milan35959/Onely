@@ -1,0 +1,77 @@
+#homeSc{
+    padding: 4rem 0px;
+    margin-bottom: 7rem;
+    background-color: ghostwhite;
+}
+
+#sectionContain{
+    padding:0px 10rem ;
+}
+
+.mainSec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainSec img{
+    width: 50%;
+    background-color: white;
+    border: 0px;
+    border-radius: 1rem;
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+
+.secText{
+    width: 40%;
+
+}
+
+
+.secText .secTh{
+    margin-bottom: 1.5rem;
+
+}
+
+.secText .secTh .secfTh{
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: rgb(111 151 208 );
+}
+
+.secText .secTh h3{
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.875rem;
+
+}
+
+.secText p{
+    margin-bottom: 1.5rem;
+    color: rgb(18 17 39 );
+}
+  
+.secText a{
+    text-decoration: none;
+}
+
+#btn{
+    color: white;
+    background-color: rgb(111 151 208 );
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 0.75rem 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px;
+    border-radius: 0.5rem;
+    align-items: center;
+    
+}
+
+#btn .btnI{
+    margin-left: 0.5rem;
+}

@@ -1,0 +1,73 @@
+.nav .navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:space-between;
+    gap: 200px;
+    padding: 24px;
+    margin: 0px auto;
+    
+}
+
+.nav{
+    border-color: rgb(229 231 235);
+    
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.logo #logo{
+    width: 100px;
+}
+
+.list{
+    width: 100%;
+
+
+}
+
+.list ul{
+    display: flex;
+    list-style: none;
+    padding: 4px;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.list ul li{
+    padding: 12px;
+    
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.list ul li a:active{
+    color: steelblue;
+    text-decoration: underline;
+}
+
+.list ul li a:hover{
+    color: steelblue;
+}
+
+.list ul li a button{
+    background-color: steelblue;
+    color: white;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.list ul li a button:hover{
+    background-color: rgb(81, 138, 185);
+}
+
+

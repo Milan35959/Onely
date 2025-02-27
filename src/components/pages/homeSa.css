@@ -1,0 +1,46 @@
+.firstpart{
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    z-index: -1;
+    background: linear-gradient(90deg, #aac4f7, #f1fcf8 44%, #c4d1fb) no-repeat center center/cover ;
+    
+    top:0px;
+}
+
+.textbox{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.textbox .textarea{
+    padding:0px 12rem;
+    margin-top: 9px;
+    
+    
+}
+
+.textbox .textarea h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 9px;
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+.textbox .textarea .htextone{
+    font-size: x-large;
+    color: rgba(18, 17, 39);
+    padding: 0px 7rem;
+    padding-bottom: 12px;
+}
+
+.textbox .imgbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox .imgbox img{
+    height: auto;
+    width: 100%;
+}

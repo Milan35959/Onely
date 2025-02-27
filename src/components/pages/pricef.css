@@ -1,0 +1,128 @@
+.pbox{
+    padding: 0rem 10rem;
+}
+
+.ptextbox{
+    padding-top: 6rem;
+    text-align: center;
+}
+
+.ptext{
+    width: 60%;
+    margin: 0rem auto;
+
+}
+
+.ptext h1{
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+
+.ptext p{
+    color: rgb(17 24 39);
+    padding: 1rem 0rem;
+    font-size: 1.125rem;
+
+}
+
+.psection{
+    padding: 2rem 0rem;
+}
+
+.itembox{
+    display: flex;
+    padding-bottom: 2.5rem;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.priceH{
+    padding: 2.5rem 1.5rem;
+    background-color: white;
+    border: 1px solid rgb(137, 138, 140);
+    border-radius: 0.75rem;
+    width: 33%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.priceH h2{
+    color: rgb(105 145 202 );
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+
+}
+
+.priceP{
+    color:rgb(137, 138, 140);
+    display: flex;
+    align-items: baseline;
+}
+
+.spanO{
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: black;
+}
+
+.spanD{
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+
+}
+
+
+
+.pDesc p{
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    color:rgb(137, 138, 140) ;
+}
+
+.priceH ul{
+    /* height: 18rem; */
+    list-style: none;
+    margin-top: 1rem;
+}
+.priceH ul li{      
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+.priceH ul li span{      
+    color: rgb(17 24 39);
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+
+
+.thick{
+    height: 21px;
+    width: 20px;
+    color: green;
+    
+}
+
+.pbtn{
+    padding-top: 2rem;
+}
+
+.pbtn button{
+    color: white;
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 0.875rem 2rem;
+    background-color: rgb(111 151 208);
+    border: 0px;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.pbtn button:hover{
+    background-color: steelblue;
+}

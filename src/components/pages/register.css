@@ -1,0 +1,131 @@
+.Register{
+    display: flex;
+    align-items: center;
+    margin: auto 3rem;
+    width: 50%;
+    padding: 2rem 0rem;
+}
+
+.Registerbox{
+    width: 75%;
+
+}
+
+
+
+.regH a{
+
+
+}
+
+.regImg{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    object-fit: contain;
+
+}
+
+.regImg img{
+    height: 80;
+    width: 80;
+
+}
+
+.regT{
+    margin: 1.25rem 0rem;
+
+}
+
+.regT .regTh{
+    color: rgb(63 71 86);
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+
+.regT .regTp{
+    color: rgb(107 114 128);
+    font-size: 0.875rem;
+    
+}
+
+.Fform{
+    margin-bottom: 0.75rem;
+}
+
+.Fform label{
+    color: rgb(63 71 86);
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+
+}
+
+.Fform label code{
+    margin-left: 0.5rem;
+    color: rgb(239 68 68);
+}
+
+.Fform input{
+
+    color: rgb(17 24 39 );
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    background-color: rgb(249 250 251);
+    border: 1px solid rgb(209 213 219);
+    border-radius: 0.5rem;
+    width: 100%;
+    display: block;
+}
+
+.textform {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.textform input{
+    color: rgb(17 24 39);
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    display: block;
+    width: 100%;
+    background-color: rgb(249 250 251);
+    border: 1px solid rgb(209 213 219) ;
+    border-radius: 0.5rem;
+    flex: 1;
+}
+
+.textform span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    filter: invert();
+
+}
+
+.policy{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.policy input{
+    color: rgb(37 99 235);
+    background-color: rgb(243 244 246);
+    border: 1px solid rgb(209 213 219);
+    width: 1rem;
+    
+
+}
+
+.policy label{
+
+}
+
+.policy label span{
+
+}

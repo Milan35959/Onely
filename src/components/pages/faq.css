@@ -1,0 +1,73 @@
+.faqcontainer{
+    max-width: 1845px;
+    margin: 0rem auto;
+}
+
+.faq{
+    padding: 0rem 10rem;
+}
+
+.faqbox{
+    padding: 6rem 0rem;
+    max-width: 1280px;
+    margin: 0rem auto;
+
+}
+
+.faqtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.faqtext h2{
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.faqGrid{
+    display: grid;
+    border-bottom: 1px solid #e5e7eb;
+    max-width: 58rem;
+    padding-top: 3rem;
+    margin:0rem auto;
+}
+
+.faqB{
+    padding: 1.5rem 0rem;
+    border-bottom:1px solid #e5e7eb ;
+
+}
+
+.faqB details{
+    position: relative;
+
+}
+ 
+.faqB details summary{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 700;
+    list-style: none;
+}
+
+
+.faqsvg{
+    transition: transform 0.3s ease;
+    
+}
+
+/* .faqsvg:active{
+    transform: rotate(180deg);
+} */
+
+.faqB details p{
+    color: rgb(82 82 82);
+    padding-top: 1rem;
+    font-size: 0.875rem;
+}
+

@@ -1,0 +1,42 @@
+.pSec{
+    padding: 4rem 0rem;
+    background-color: ghostwhite;
+}
+
+.pContainer{
+    padding: 0rem 10rem;
+
+}
+
+.pContain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pHead{
+    font-weight: 700;
+    font-size: 1.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.pPara{
+    color: rgb(18 17 39);
+}
+
+a{
+    height: 40px;
+    width: 95px;
+}
+
+.pBtn{
+    color: white;
+    background-color: rgb(111 151 208 );
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 0.5rem ;
+    margin-top: 0px;
+    border: 1px;
+    border-radius: 0.5rem;
+    
+}

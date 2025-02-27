@@ -1,0 +1,55 @@
+.howf{
+    padding: 0rem 10rem;
+}
+
+.howcontainer{
+    max-width: 1845px;
+    margin: 0rem auto;
+}
+
+.howbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    overflow: hidden;
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+   
+
+}
+
+.howTb{
+    width: 45%;
+    padding-top: 0px;
+}
+
+.howTb h1{
+    font-weight: 700;
+    font-size: 44px;
+    padding-bottom: 0.75rem;
+}
+
+.howTb p{
+
+    color: rgb(17 24 39);
+    font-size: 1rem;
+}
+
+.howimg img{
+
+    border: 0px;
+    border-radius: 0.5rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.howS{
+    display: grid;
+    padding-top: 6rem;
+    padding-bottom: 9rem;
+    row-gap: 3.5rem;
+    column-gap: 1.5rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+}
